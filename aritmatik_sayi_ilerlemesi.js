@@ -1,6 +1,6 @@
 /*
 
-burada belirlediğin sırada belirlediğin limite kadar ilk değişken kadar artarak giden bir sistem  bu burada 5 den başlayıp 25 e kadar peyder peyder gitmiş.
+burada belirlediğin sırada belirlediğin limite kadar ilk değişken kadar artarak giden bir sistem  bu burada 5 den başlayıp 25 e kadar peyder peyder gidecketir.
 */
 
 

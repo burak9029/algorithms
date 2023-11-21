@@ -6,7 +6,7 @@ const labels = [0, 1, 1, 0];
 /*
 
 - Classifies a data point relative to a labelled data set, using the k-nearest neighbors algorithm.
-
+- veriyi yakın ilişkili bir bir noktaya göre etiketleyip en yakın k noktasındaki algoritmada kullanmak.
 */
 
 const kNearestNeighbors = (data, labels, point, k = 3) => {

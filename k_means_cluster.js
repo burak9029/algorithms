@@ -1,6 +1,5 @@
 /* 
-    burada centroid constant veriyor. k yı bölüyor. !! distance veriyor ki burada verilen datanın karakter sayısını ölçüyor. itr let i değişeni veriyor
-    itr değerinin yanlış olduğu varsayımında math.hypoth!!!????? oluyor ama anlamını araştırmam gerekiyor. devamı yok bende.....
+  bu algoritma türü çoklu veri yığınlarının içerisinde belli bir veriyi bulma ve çıkarmaya yaramaktadır. 
 */
 
 

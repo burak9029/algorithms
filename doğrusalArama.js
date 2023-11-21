@@ -1,8 +1,5 @@
 const array = [3, 8, 12, 6, 10, 2];
-/* 
-bunu çok anlayamadım çalıştıramadım da. arama yapmıyor büyük ihtimalle bir şeyi eksik çünkü github dan aldım.
-*/
-// Find 10 in the given array.
+// aranan sayının dizinin içerisinde olması elemanın  var olup olmadığını tespit için kullanılır.
 function checkForN(arr, n) {
     for(let i = 0; i < array.length; i++) {
         if (n === array[i]) {

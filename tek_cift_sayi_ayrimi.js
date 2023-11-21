@@ -7,12 +7,12 @@ numaranın ikiye bölümünden kalan 0 ise numara çift kalan sıfıra eşit de�
 
 const number = 2/*prompt("Enter a number: ")*/;
 
-//check if the number is even
+//sayının çift olup olmadığını kontrol eder.
 if(number % 2 == 0) {
     console.log("The number is even.");
 }
 
-// if the number is odd
+// değilse tek sayı olduğunu yazdırır.
 else {
     console.log("The number is odd.");
 }

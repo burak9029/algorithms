@@ -9,25 +9,24 @@ const highNumber = parseInt(153/* prompt('Enter a positive high integer value: '
 
 console.log ('Armstrong Numbers:');
 
-// looping through lowNumber to highNumber
+// "low number" ile "highNumber" arasında döngü oluşturulur.
 for (let i = lowNumber; i <= highNumber; i++) {
 
-    // converting number to string 
+    //numaralar string olur.
     let numberOfDigits = i.toString().length;
 
     let sum = 0;
 
-    // create a temporary variable
+    // geçici bir değişken oluştulur.
     let temp = i;
 
-    /* loop through a number to find if 
-    a number is an Armstrong number */
+    /* döngüye sokarak sayısının armstrong sayısı olup olmadığı açığa çıkar. */
     while (temp > 0) {
 
         let remainder = temp % 10;
         sum += remainder ** numberOfDigits;
-        // removing last digit from the number
-        temp = parseInt(temp / 10); // convert float into integer
+        // sayısının sonundaki numaranın silinmesi
+        temp = parseInt(temp / 10); // ondalık sayının normal sayıya yuvarlanması
     }
  
     if (sum == i) {

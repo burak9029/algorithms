@@ -6,8 +6,9 @@ function checkForN(arr, n) {
             return `${true} ${n} exists at index ${i}`;
         }
     }
-
+//arrayın içerisindeki sayının varlığının olup olmadığnı ifade ediyor. checForN fonksiyonunda adı yazılmış arrayın yanına sorgulanacak array elemanı yazılarak var olup olmadığın
+//ortaya çıkacatır. varsa doğru olmazsa yanlış sonucu çıkacaktır. alse 4 does not exist in the given array. örnekte olduğu gibi.
   return `${false} ${n} does not exist in the given array.`;
 }
 
-checkForN(array, 4);
+console.log(checkForN(array, 4));
